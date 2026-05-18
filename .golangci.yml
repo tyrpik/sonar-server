@@ -1,19 +1,7 @@
-linters:
-  enable:
-    - errcheck
-    - gosimple
-    - govet
-    - ineffassign
-    - staticcheck
-    - unused
-    - gosec
-    - revive
-    - gofmt
+version: "2"
 
-linters-settings:
-  revive:
-    rules:
-      - name: exported
+linters:
+  default: standard
 
 issues:
   exclude-use-default: false
